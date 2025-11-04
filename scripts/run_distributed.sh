@@ -28,7 +28,7 @@ torchrun \
     --node_rank=0 \
     --master_addr=localhost \
     --master_port=29500 \
-    ddp_trainer.py \
+    src/ddp_trainer.py \
     --batch-size $BATCH_SIZE \
     --epochs $EPOCHS \
     --monitor
